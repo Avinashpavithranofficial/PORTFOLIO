@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI/ML Projects by AVINASH PAVITHRAN - Deep Learning, Computer Vision, NLP RAG Engine, and Predictive Analytics.">
+  <title>Projects Showcase | AVINASH PAVITHRAN - AI/ML Engineer</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ================= HEADER & NAVBAR ================= -->
+  <header class="header">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="index.html" class="logo">
+          <div class="logo-badge">AP</div>
+          <div class="logo-text">AVINASH <span>PAVITHRAN</span></div>
+        </a>
+
+        <input type="checkbox" id="menu-toggle-cb">
+        <label for="menu-toggle-cb" aria-label="Toggle navigation menu">
+          <div class="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </label>
+
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="contact.html" class="nav-link nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header Hero -->
+    <section class="hero" style="padding: 4rem 0 3rem;">
+      <div class="container">
+        <div class="section-title-wrapper" style="margin-bottom: 0;">
+          <span class="section-badge">Case Studies</span>
+          <h1 class="section-title">Featured AI/ML Projects</h1>
+          <p class="section-subtitle">Real-world intelligent software systems built with PyTorch, OpenCV, Transformers, and MLOps tools.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-alt">
+      <div class="container">
+        
+        <div class="projects-grid">
+
+          <!-- Project Card 1 -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <span class="project-badge-type">Computer Vision</span>
+              <div class="project-img-placeholder">
+                <div>
+                  <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                  <p style="font-weight: 700; margin-top: 0.5rem; font-size: 1.1rem;">Deep Vision Inspection</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h2 class="project-title">1. Deep Vision Defect Detection System</h2>
+              <p class="project-description">
+                An industrial-grade computer vision pipeline designed for real-time quality control on high-speed assembly lines. Utilizes a fine-tuned ResNet50 neural network combined with OpenCV image preprocessing to identify surface micro-cracks and material defects with 98.4% validation accuracy.
+              </p>
+              
+              <div style="margin-bottom: 1rem;">
+                <h4 style="font-size: 0.85rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem;">Key Highlights:</h4>
+                <ul style="padding-left: 1.2rem; font-size: 0.9rem; color: var(--text-secondary);">
+                  <li>Sub-50ms inference latency per frame via TensorRT optimization.</li>
+                  <li>FastAPI REST endpoints for seamless camera integration.</li>
+                  <li>Automated defect telemetry logging and dashboard alerts.</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-pill">PyTorch</span>
+                <span class="tech-pill">OpenCV</span>
+                <span class="tech-pill">ResNet50</span>
+                <span class="tech-pill">FastAPI</span>
+                <span class="tech-pill">Docker</span>
+              </div>
+
+              <div class="project-links">
+                <a href="contact.html" class="project-link-btn">Request Demo Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <span class="project-badge-type">NLP &amp; LLMs</span>
+              <div class="project-img-placeholder" style="background: linear-gradient(135deg, #1e40af, #3b82f6);">
+                <div>
+                  <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                  <p style="font-weight: 700; margin-top: 0.5rem; font-size: 1.1rem;">Enterprise RAG Engine</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h2 class="project-title">2. NeuralNLP Conversational AI Assistant</h2>
+              <p class="project-description">
+                A Retrieval-Augmented Generation (RAG) conversational pipeline enabling context-aware Q&amp;A over large repository documents. Uses Hugging Face Transformer embeddings, Chroma Vector Database, and LangChain orchestration to synthesize accurate, cited answers without hallucinations.
+              </p>
+
+              <div style="margin-bottom: 1rem;">
+                <h4 style="font-size: 0.85rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem;">Key Highlights:</h4>
+                <ul style="padding-left: 1.2rem; font-size: 0.9rem; color: var(--text-secondary);">
+                  <li>Semantic vector chunking and top-k retrieval precision.</li>
+                  <li>Support for PDF, DOCX, and Markdown document ingesting.</li>
+                  <li>Hallucination prevention with source document attribution.</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-pill">Transformers</span>
+                <span class="tech-pill">LangChain</span>
+                <span class="tech-pill">ChromaDB</span>
+                <span class="tech-pill">Hugging Face</span>
+                <span class="tech-pill">Python</span>
+              </div>
+
+              <div class="project-links">
+                <a href="contact.html" class="project-link-btn">Request Demo Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <span class="project-badge-type">Predictive Analytics</span>
+              <div class="project-img-placeholder" style="background: linear-gradient(135deg, #1d4ed8, #60a5fa);">
+                <div>
+                  <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                  <p style="font-weight: 700; margin-top: 0.5rem; font-size: 1.1rem;">Predictive Forecasting</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h2 class="project-title">3. AutoML Time-Series Forecasting Engine</h2>
+              <p class="project-description">
+                An automated machine learning pipeline built to ingest multi-variate financial and supply chain time-series data. Implements XGBoost, Prophet, and Random Forests with automated hyperparameter tuning to forecast operational trends up to 90 days in advance.
+              </p>
+
+              <div style="margin-bottom: 1rem;">
+                <h4 style="font-size: 0.85rem; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.5rem;">Key Highlights:</h4>
+                <ul style="padding-left: 1.2rem; font-size: 0.9rem; color: var(--text-secondary);">
+                  <li>Automated feature engineering (lag features, rolling means).</li>
+                  <li>Interactive Streamlit dashboard with confidence intervals.</li>
+                  <li>35% improvement over baseline ARIMA regression models.</li>
+                </ul>
+              </div>
+
+              <div class="project-tech-tags">
+                <span class="tech-pill">Scikit-Learn</span>
+                <span class="tech-pill">XGBoost</span>
+                <span class="tech-pill">Pandas</span>
+                <span class="tech-pill">Streamlit</span>
+                <span class="tech-pill">NumPy</span>
+              </div>
+
+              <div class="project-links">
+                <a href="contact.html" class="project-link-btn">Request Demo Code</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-badge">AP</div>
+            <div class="logo-text">AVINASH <span>PAVITHRAN</span></div>
+          </a>
+          <p>AI/ML Engineer crafting next-generation machine learning software.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Social Media</h4>
+          <ul class="footer-links">
+            <li><a href="https://www.linkedin.com/in/avinash-pavithran-248a51427?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/avinashpavithran?igsh=MXVvcWh1ZXNhcXJsbg==" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://www.facebook.com/share/1986KY3Vfe/" target="_blank" rel="noopener">Facebook</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="contact.html">Get In Touch</a></li>
+            <li><a href="mailto:avinashpavithranofficial@gmail.com">Email Avinash</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 <span>AVINASH PAVITHRAN</span>. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
